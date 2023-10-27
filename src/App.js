@@ -17,8 +17,8 @@ function Intro() {
         will.
       </h3>
       <h1 className="intro__title">
-        Official Website of the Compunerd Society of Goel Institute of
-        Technology and Management.
+        Official Website of the Prisma , a Student Community at Goel Institute
+        of Technology and Management.
       </h1>
       <p className="intro__text">
         If you are from GITM and want to collaborate on this project , please
