@@ -39,3 +39,26 @@
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .intro {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    margin: auto;
+    padding: 3rem;
+    .intro__title {
+      font-size: 1rem;
+    }
+    .intro__subtitle {
+      font-size: 1rem;
+    }
+    .intro__text {
+      font-size: 1rem;
+    }
+  }
+}
