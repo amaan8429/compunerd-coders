@@ -1,12 +1,13 @@
 import React from "react";
 import "./styles.scss";
+import Hero from "./components/Hero";
 
 function EmailLink() {
   return <a href="mailto:amaanrizvi73@gmail.com">Mail</a>;
 }
 
 function LinktreeLink() {
-  return <a href="https://linktr.ee/amaan8429">Other Links</a>;
+  return <a href="https://linktr.ee/amaan8429">LinktreeLink</a>;
 }
 
 function Intro() {
@@ -31,4 +32,13 @@ function Intro() {
   );
 }
 
-export default Intro;
+function App() {
+  return (
+    <>
+      <Hero />
+      {/* <Intro /> */}
+    </>
+  );
+}
+
+export default App;
